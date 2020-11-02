@@ -26,7 +26,7 @@ function require(module)
     }
     return scopes[module].exports;
 }
-require.scopes = {}; 
+require.scopes = Object.create(null);
 
 function startup(data, reason) {
     addonData = data;
@@ -39,7 +39,7 @@ function shutdown(data, reason) {
     }
     require("main").done();
     require.scopes = {};
-    addonData = null;  
+    addonData = null;
 }
 
 function install() {}
