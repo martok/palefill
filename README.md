@@ -9,7 +9,14 @@ It is possible to specify any combination of required fixes for a site.
 
 ## Credits
 
-This addon is heavily based on [**GitHub Web Components Polyfill**](https://github.com/JustOff/github-wc-polyfill), which does the same thing for GitHub, portions coming from there are `Copyright (c) 2020 JustOff.`
+This addon is heavily based on [**GitHub Web Components Polyfill**](https://github.com/JustOff/github-wc-polyfill),
+which does the same thing for GitHub and a few other sites.
+```
+ Portions based on GitHub Web Components Polyfill Add-on
+ Copyright (c) 2020 JustOff. All rights reserved.
+ Copyright (c) 2022 SeaHOH. All rights reserved.
+ https://github.com/JustOff/github-wc-polyfill
+```
 
 The polyfills themselves have different contributors, see `lib/polyfills.js`.
 
