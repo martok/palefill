@@ -6,8 +6,8 @@
  Pale Moon Web Technologies Add-on
  Copyright (c) 2020 Martok. All rights reserved.
 */
-
 "use strict";
+
 const {classes: Cc, interfaces: Ci, utils: Cu} = Components;
 Cu.import("resource://gre/modules/Services.jsm");
 
