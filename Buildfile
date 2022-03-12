@@ -14,5 +14,6 @@ files=xpi.files
 [xpi.files]
 install.rdf=
 bootstrap.js=
+options.xul=
 lib/*.js=lib/
 

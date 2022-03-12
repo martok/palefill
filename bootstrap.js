@@ -30,6 +30,9 @@ require.scopes = Object.create(null);
 
 function startup(data, reason) {
     addonData = data;
+    const settings = require("settings").getService();
+    settings.init("extensions.palefill.", addonData);
+    settings.setDefaults(require("settings-defaults"));
     require("main").init();
 }
 
@@ -38,6 +41,7 @@ function shutdown(data, reason) {
         return;
     }
     require("main").done();
+    require("settings").getService().done();
     require.scopes = {};
     addonData = null;
 }
