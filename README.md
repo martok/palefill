@@ -12,6 +12,39 @@ Polyfills are specified as "fixes" that are applied per domain. Fixes currently 
 
 It is possible to specify any combination of required fixes for a site.
 
+## Rule Syntax
+
+Rules are made up of two parts: at least one selector and at least one fix.
+
+**Fixes** can be any number of actions, best refer to [function evaluateFix](lib/main.js) for
+up-to-date info on what each one does. The names are case-sensitive.
+
+**Selectors** use a syntax derieved from Adblock filters. Three parts are used:
+
+  * the domain part (*mandatory*)
+  * path part (*optional*)
+  * delimted with a "$": content type selection (*optional*)
+      * document: regular top-level document
+      * subdocument: included document, such as frame or iframe
+      * script: anything included via <script> tags
+
+All of these are valid selectors:
+```
+example.com
+example.com/path/a.html
+example.com/path/to.js$script
+example.com/path/any*.js$script
+example.com$subdocument
+```
+
+**Rule scripts** are constructed by giving any number of selectors followed by a comma-separated list
+of the fixes to apply, indented by whitespace:
+```
+example.com
+example.com/path/a.html
+  std-queueMicrotask,std-customElements
+```
+
 ## Credits
 
 This addon is heavily based on [**GitHub Web Components Polyfill**](https://github.com/JustOff/github-wc-polyfill),
