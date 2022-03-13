@@ -8,5 +8,11 @@
  Copyright (c) 2020-22 Martok. All rights reserved.
 -->
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <setting pref="extensions.palefill.debug" type="bool" title="Print debug info" />
+  <setting pref="extensions.palefill.debug" type="bool" title="Print debug info"/>
+  <setting title="Exclude rules" type="control" desc="These are subtracted from the fix result set after matching the internal rules">
+    <vbox flex="1">
+      <button id="palefill-exclusion-apply" label="Check &amp; Apply"/>
+      <textbox id="palefill-exclusion-list" multiline="true" rows="6" wrap="off"/>
+    </vbox>
+  </setting>
 </vbox>
