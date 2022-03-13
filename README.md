@@ -45,6 +45,15 @@ example.com/path/a.html
   std-queueMicrotask,std-customElements
 ```
 
+Additionally, the exclusion script has a special case: if the special fix `*` is used, all fixes are
+suppressed for the matched sites. This is useful when running this addon alongside others that also
+apply changes. For example, the following rule disables all fixes on `github.com`:
+```
+github.com
+  *
+```
+
+
 ## Credits
 
 This addon is heavily based on [**GitHub Web Components Polyfill**](https://github.com/JustOff/github-wc-polyfill),
