@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:extension:palefill@addons.martoks-place.de">
+    <em:updates>
+      <Seq>
+        <li>
+          <Description>
+            <em:version>1.6</em:version>
+            <!-- Pale Moon -->
+            <em:targetApplication>
+              <Description>
+                <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+                <em:minVersion>28.14.0</em:minVersion>
+                <em:maxVersion>29.*</em:maxVersion>
+                <em:updateLink>https://github.com/martok/palefill/releases/download/v1.6/palefill-1.6.xpi</em:updateLink>
+              </Description>
+            </em:targetApplication>
+            <!-- Firefox -->
+            <em:targetApplication>
+              <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>52.9.2020.10.05</em:minVersion>
+                <em:maxVersion>52.9.2021.*</em:maxVersion>
+                <em:updateLink>https://github.com/martok/palefill/releases/download/v1.6/palefill-1.6.xpi</em:updateLink>
+              </Description>
+            </em:targetApplication>
+            <!-- SeaMonkey -->
+            <em:targetApplication>
+              <Description>
+                <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+                <em:minVersion>2.53.4</em:minVersion>
+                <em:maxVersion>2.53.*</em:maxVersion>
+                <em:updateLink>https://github.com/martok/palefill/releases/download/v1.6/palefill-1.6.xpi</em:updateLink>
+              </Description>
+            </em:targetApplication>
+          </Description>
+        </li>
+      </Seq>
+    </em:updates>
+  </Description>
+</RDF>
