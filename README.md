@@ -67,3 +67,8 @@ which does the same thing for GitHub and a few other sites.
 
 The polyfills themselves have different contributors, see `lib/polyfills.js`.
 
+The following people have contributed to this addon:
+
+  * [roytam1](https://github.com/roytam1)
+  * [UCyborg](https://github.com/UCyborg)
+
