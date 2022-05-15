@@ -21,8 +21,10 @@ up-to-date info on what each one does. The names are case-sensitive.
 
 **Selectors** use a syntax derieved from Adblock filters. Three parts are used:
 
-  * the domain part (*mandatory*)
-  * path part (*optional*)
+  * the domain part (*mandatory*) \
+    The `*` wildcard can be used at the leftmost level to match any (recursive) subdomain
+  * path part (*optional*) \
+    The `*` wildcard can be used exactly once, anywhere in the path
   * delimted with a "$": content type selection (*optional*)
       * document: regular top-level document
       * subdocument: included document, such as frame or iframe
@@ -32,7 +34,7 @@ All of these are valid selectors:
 ```
 example.com
 example.com/path/a.html
-example.com/path/to.js$script
+*.example.com/path/to.js$script
 example.com/path/any*.js$script
 example.com$subdocument
 ```
