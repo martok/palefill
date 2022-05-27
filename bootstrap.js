@@ -11,13 +11,13 @@
 const {classes: Cc, interfaces: Ci, utils: Cu} = Components;
 Cu.import("resource://gre/modules/Services.jsm");
 
-let addonData = null;
+let gAddonData = null;
 
 function require(module)
 {
     let scopes = require.scopes;
     if (!(module in scopes)) {
-        let url = addonData.resourceURI.spec + "lib/" + module + ".js";
+        let url = gAddonData.resourceURI.spec + "lib/" + module + ".js";
         scopes[module] = {
             Cc, Ci, Cu, require,
             exports: {}
@@ -29,9 +29,9 @@ function require(module)
 require.scopes = Object.create(null);
 
 function startup(data, reason) {
-    addonData = data;
+    gAddonData = data;
     const settings = require("settings").getService();
-    settings.init("extensions.palefill.", addonData);
+    settings.init("extensions.palefill.", gAddonData);
     settings.setDefaults(require("settings-defaults"));
     require("main").init();
 }
@@ -43,7 +43,7 @@ function shutdown(data, reason) {
     require("main").done();
     require("settings").getService().done();
     require.scopes = {};
-    addonData = null;
+    gAddonData = null;
 }
 
 function install() {}
