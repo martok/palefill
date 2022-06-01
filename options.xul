@@ -15,6 +15,7 @@
     </vbox>
   </setting>
   <setting pref="extensions.palefill.debug" type="bool" title="Print debug info"/>
+  <setting pref="extensions.palefill.gitlab-urls" type="string" title="Custom self-hosted Gitlab instances (comma-separated list)"/>
   <setting title="" type="control" desc="">
     <vbox flex="1">
       <button id="palefill-dump-platform" label="Dump platform information"/>
