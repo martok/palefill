@@ -55,6 +55,12 @@ github.com
   *
 ```
 
+## GitLab Rules
+
+Since there are many self-hosted GitLab instances that all need the same fixes as the "official" `gitlab.com`,
+a split approach is used for these: a list of well-known instances is shipped with the addon and additionally,
+it is possible to specify custom URLs in the addon's preferences. This makes it easy to i.e. add private instances
+that don't need to be in the global list.
 
 ## Credits
 
