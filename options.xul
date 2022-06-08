@@ -8,6 +8,10 @@
  Copyright (c) 2020-22 Martok. All rights reserved.
 -->
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting title="" type="custom" desc="" id="palefill-platform-error" class="error" style="display:inherit">
+    <!-- UI annoyance: the "no-script" text cannot wrap, because extensions.js strips all text nodes before applying the XBL binding -->
+    <image class="error-icon"/><description class="global-error-text" style="width: 50vw;" value="Palefill is installed on a platform that it does not run on. You may want to disable/remove it, it will not function."/>
+  </setting>
   <setting title="Exclude rules" type="control" desc="These are subtracted from the fix result set after matching the internal rules">
     <vbox flex="1">
       <button id="palefill-exclusion-apply" label="Check &amp; Apply"/>
