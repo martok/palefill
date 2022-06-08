@@ -1,7 +1,7 @@
 # Pale Moon Web Technologies Polyfill Add-On
 
 Inject Polyfills for various web technologies into pages requiring them. This addon is aimed
-at UXP and Pale Moon. Seamonkey support is mostly untested.
+at Pale Moon and UXP. Seamonkey support is mostly untested. For others, [see below](#platform-support).
 
 Polyfills are specified as "fixes" that are applied per domain. Fixes currently can be:
 
@@ -61,6 +61,18 @@ Since there are many self-hosted GitLab instances that all need the same fixes a
 a split approach is used for these: a list of well-known instances is shipped with the addon and additionally,
 it is possible to specify custom URLs in the addon's preferences. This makes it easy to i.e. add private instances
 that don't need to be in the global list.
+
+## Platform Support
+
+Palefill is developed on the Pale Moon browser. Contributors have also helped with Iceweasel-UXP, Basilisk and SeaMonkey
+support. Those are considered "fully supported".
+
+It is also possible to install Palefill on *any* browser using the UXP toolkit. This should help with some more niche
+projects or custom and testing branches. Due to implementation details, it is technically also possible to install the
+addon on very old Firefox versions -- this is caught at runtime since this won't actually work.
+
+When running in this compatibility mode, all features should still work as expected, but users should be aware that this
+is completely untested and no claims at all are being made. In this case, a warning text is displayed in the addon's preferences.
 
 ## Credits
 

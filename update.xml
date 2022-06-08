@@ -37,6 +37,15 @@
                 <em:updateLink>&updateURL;</em:updateLink>
               </Description>
             </em:targetApplication>
+            <!-- Generic UXP -->
+            <em:targetApplication>
+              <Description>
+                <em:id>toolkit@mozilla.org</em:id>
+                <em:minVersion>4.8.2</em:minVersion>
+                <em:maxVersion>10.*</em:maxVersion>
+                <em:updateLink>&updateURL;</em:updateLink>
+              </Description>
+            </em:targetApplication>
           </Description>
         </li>
       </Seq>
