@@ -23,7 +23,7 @@
             <em:targetApplication>
               <Description>
                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-                <em:minVersion>52.9.2020.10.05</em:minVersion>
+                <em:minVersion>52.9.0</em:minVersion>
                 <em:maxVersion>52.9.*</em:maxVersion>
                 <em:updateLink>&updateURL;</em:updateLink>
               </Description>
