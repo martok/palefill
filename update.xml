@@ -14,7 +14,7 @@
             <em:targetApplication>
               <Description>
                 <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-                <em:minVersion>28.14.0</em:minVersion>
+                <em:minVersion>28.10.0</em:minVersion>
                 <em:maxVersion>31.*</em:maxVersion>
                 <em:updateLink>&updateURL;</em:updateLink>
               </Description>
