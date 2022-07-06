@@ -1,4 +1,4 @@
-# Pale Moon Web Technologies Polyfill Add-On
+# Palefill Web Technologies Polyfill Add-on
 
 Inject Polyfills for various web technologies into pages requiring them. This addon is aimed
 at Pale Moon and UXP. Seamonkey support is mostly untested. For others, [see below](#platform-support).

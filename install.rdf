@@ -6,7 +6,7 @@
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
     <em:strictCompatibility>true</em:strictCompatibility>
-    <em:name>Pale Moon Web Technologies Polyfill Add-On</em:name>
+    <em:name>Palefill Web Technologies Polyfill</em:name>
     <em:description>Inject Polyfills for various web technologies into pages requiring them</em:description>
     <em:creator>Martok</em:creator>
     <em:homepageURL>https://github.com/martok/palefill</em:homepageURL>
