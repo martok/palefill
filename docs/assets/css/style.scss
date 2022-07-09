@@ -1,0 +1,363 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/*******************************************************************************
+  rouge-github.scss
+*******************************************************************************/
+
+.highlight {
+    background-color: #f8f8f8;
+
+    table td { padding: 5px; }
+    table pre { margin: 0; }
+    .cm {
+        color: #777772;
+        font-style: italic;
+    }
+    .cp {
+        color: #797676;
+        font-weight: bold;
+    }
+    .c1 {
+        color: #777772;
+        font-style: italic;
+    }
+    .cs {
+        color: #797676;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .c,  .cd {
+        color: #777772;
+        font-style: italic;
+    }
+    .err {
+        color: #a61717;
+        background-color: #e3d2d2;
+    }
+    .gd {
+        color: #000000;
+        background-color: #ffdddd;
+    }
+    .ge {
+        color: #000000;
+        font-style: italic;
+    }
+    .gr {
+        color: #aa0000;
+    }
+    .gh {
+        color: #797676;
+    }
+    .gi {
+        color: #000000;
+        background-color: #ddffdd;
+    }
+    .go {
+        color: #888888;
+    }
+    .gp {
+        color: #555555;
+    }
+    .gs {
+        font-weight: bold;
+    }
+    .gu {
+        color: #aaaaaa;
+    }
+    .gt {
+        color: #aa0000;
+    }
+    .kc {
+        color: #000000;
+        font-weight: bold;
+    }
+    .kd {
+        color: #000000;
+        font-weight: bold;
+    }
+    .kn {
+        color: #000000;
+        font-weight: bold;
+    }
+    .kp {
+        color: #000000;
+        font-weight: bold;
+    }
+    .kr {
+        color: #000000;
+        font-weight: bold;
+    }
+    .kt {
+        color: #445588;
+        font-weight: bold;
+    }
+    .k,  .kv {
+        color: #000000;
+        font-weight: bold;
+    }
+    .mf {
+        color: #009999;
+    }
+    .mh {
+        color: #009999;
+    }
+    .il {
+        color: #009999;
+    }
+    .mi {
+        color: #009999;
+    }
+    .mo {
+        color: #009999;
+    }
+    .m,  .mb,  .mx {
+        color: #009999;
+    }
+    .sb {
+        color: #d14;
+    }
+    .sc {
+        color: #d14;
+    }
+    .sd {
+        color: #d14;
+    }
+    .s2 {
+        color: #d14;
+    }
+    .se {
+        color: #d14;
+    }
+    .sh {
+        color: #d14;
+    }
+    .si {
+        color: #d14;
+    }
+    .sx {
+        color: #d14;
+    }
+    .sr {
+        color: #009926;
+    }
+    .s1 {
+        color: #d14;
+    }
+    .ss {
+        color: #990073;
+    }
+    .s {
+        color: #d14;
+    }
+    .na {
+        color: #008080;
+    }
+    .bp {
+        color: #797676;
+    }
+    .nb {
+        color: #0086B3;
+    }
+    .nc {
+        color: #445588;
+        font-weight: bold;
+    }
+    .no {
+        color: #008080;
+    }
+    .nd {
+        color: #3c5d5d;
+        font-weight: bold;
+    }
+    .ni {
+        color: #800080;
+    }
+    .ne {
+        color: #990000;
+        font-weight: bold;
+    }
+    .nf {
+        color: #990000;
+        font-weight: bold;
+    }
+    .nl {
+        color: #990000;
+        font-weight: bold;
+    }
+    .nn {
+        color: #555555;
+    }
+    .nt {
+        color: #000080;
+    }
+    .vc {
+        color: #008080;
+    }
+    .vg {
+        color: #008080;
+    }
+    .vi {
+        color: #008080;
+    }
+    .nv {
+        color: #008080;
+    }
+    .ow {
+        color: #000000;
+        font-weight: bold;
+    }
+    .o {
+        color: #000000;
+        font-weight: bold;
+    }
+    .w {
+        color: #bbbbbb;
+    }
+}
+
+
+/*******************************************************************************
+General Layout elements
+*******************************************************************************/
+
+
+body {
+    background: #f2f2f2;
+}
+
+header {
+    background: linear-gradient(to top, #373737, #212121);
+
+    h1 {
+        text-shadow: #111 0px 0px 10px;
+        color: #f3f3f3;
+
+        a {
+            color: #f3f3f3;
+        }
+    }
+}
+
+#banner {
+    background: #686868;
+    border: 1px solid #909090;
+
+    .button {
+        border: 1px solid #d5d5d5;
+        background: linear-gradient(rgb(220, 220, 220), rgb(170, 170, 170));
+        box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.1);
+
+        &:hover {
+            background: linear-gradient(rgb(230, 230, 230), rgb(200, 200, 200));
+            background-color: #d2d2d2;
+        }
+    }
+
+    .fork {
+        background-color: #FFE788;
+    }
+
+    .downloads {
+        span {
+            font-size: 100%;
+            color: #d2d2d2;
+        }
+    }
+}
+
+/*******************************************************************************
+Text Content
+*******************************************************************************/
+
+ul {
+  list-style-position: inside;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+ol {
+  list-style-position: inside;
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+pre, code {
+  color: #222;
+  background-color: #fff;
+
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 0.875em;
+
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+pre {
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  overflow: auto;
+}
+
+code {
+  padding: 3px;
+  margin: 0 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  text-shadow: initial;
+}
+
+pre code {
+  display: block;
+  box-shadow: none;
+  padding: 3px;
+  margin: 0 3px;
+}
+
+
+blockquote {
+  color: #666;
+  margin-bottom: 20px;
+  padding: 0 0 0 20px;
+  border-left: 3px solid #bbb;
+}
+
+table {
+  border: 1px solid #373737;
+  margin-bottom: 20px;
+  text-align: left;
+ }
+
+th {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 10px;
+  background: #373737;
+  color: #fff;
+ }
+
+td {
+  padding: 10px;
+  border: 1px solid #373737;
+
+  &:first-child {
+    border: 1px solid #373737;
+  }
+}
+
+
+/*******************************************************************************
+Site-Specific overrides
+*******************************************************************************/
+
+#banner #logo {
+{% if site.logo_icon %}
+    background: url(../../{{ site.logo_icon }});
+    background-size: cover;
+    background-position: center;
+{% else %}
+    display: none;
+{% endif %}
+}
+
