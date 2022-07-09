@@ -15,5 +15,7 @@ files=xpi.files
 install.rdf=
 bootstrap.js=
 options.xul=
+icon.png=
+icon64.png=
 lib/*.js=lib/
 
