@@ -1,6 +1,6 @@
 # [Palefill Web Technologies Polyfill Add-on](https://martok.github.io/palefill/)
 
-Palefill is an addon for Pale Moon that injects [polyfills](https://en.wikipedia.org/wiki/Polyfill_(programming))
+Palefill is an add-on for Pale Moon that injects [polyfills](https://en.wikipedia.org/wiki/Polyfill_(programming))
 into pages to improve compatibility.
 
 ## Installation
@@ -21,7 +21,7 @@ Full documentation including technical details is on [its own site](https://mart
 
 ## Credits
 
-This addon is heavily based on [**GitHub Web Components Polyfill**](https://github.com/JustOff/github-wc-polyfill),
+This add-on is heavily based on [**GitHub Web Components Polyfill**](https://github.com/JustOff/github-wc-polyfill),
 which does the same thing for GitHub and a few other sites.
 ```
  Portions based on GitHub Web Components Polyfill Add-on
@@ -32,7 +32,7 @@ which does the same thing for GitHub and a few other sites.
 
 The polyfills themselves have different contributors, see `lib/polyfills.js`.
 
-The following people have contributed to this addon:
+The following people have contributed to this add-on:
 
   * [roytam1](https://github.com/roytam1)
   * [UCyborg](https://github.com/UCyborg)

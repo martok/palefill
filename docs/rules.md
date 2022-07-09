@@ -39,7 +39,7 @@ example.com/path/a.html
 ```
 
 Additionally, the exclusion script has a special case: if the special fix `*` is used, all fixes are
-suppressed for the matched sites. This is useful when running this addon alongside others that also
+suppressed for the matched sites. This is useful when running this add-on alongside others that also
 apply changes. For example, the following rule disables all fixes on `github.com`:
 ```
 github.com
@@ -49,8 +49,8 @@ github.com
 ## GitLab Rules
 
 Since there are many self-hosted GitLab instances that all need the same fixes as the "official" `gitlab.com`,
-a split approach is used for these: a list of well-known instances is shipped with the addon and additionally,
-it is possible to specify custom URLs in the addon's preferences. This makes it easy to i.e. add private instances
+a split approach is used for these: a list of well-known instances is shipped with the add-on and additionally,
+it is possible to specify custom URLs in the add-on's preferences. This makes it easy to i.e. add private instances
 that don't need to be in the global list.
 
 
