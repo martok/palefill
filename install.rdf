@@ -9,7 +9,7 @@
     <em:name>Palefill Web Technologies Polyfill</em:name>
     <em:description>Inject Polyfills for various web technologies into pages requiring them</em:description>
     <em:creator>Martok</em:creator>
-    <em:homepageURL>https://github.com/martok/palefill</em:homepageURL>
+    <em:homepageURL>https://martok.github.io/palefill/</em:homepageURL>
     <em:updateURL>https://raw.githubusercontent.com/martok/palefill/master/update.xml</em:updateURL>
     <!-- Pale Moon -->
     <em:targetApplication>
