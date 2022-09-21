@@ -5,6 +5,6 @@ title: Palefill
 description: Web Technologies Polyfill
 logo_icon: icon64.png
 
-
 github:
   release_url: https://github.com/martok/palefill/releases/latest
+  install_url: https://github.com/martok/palefill/releases/download/v1.20/palefill-1.20.xpi

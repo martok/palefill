@@ -30,7 +30,12 @@
           <div class="downloads">
             <span>Releases:</span>
             <ul>
+              {% if site.github.release_url %}
               <li><a href="{{ site.github.release_url }}" class="button">Latest</a></li>
+              {% endif %}
+              {% if site.github.install_url %}
+              <li><a href="{{ site.github.install_url }}" class="button">Install</a></li>
+              {% endif %}
             </ul>
           </div>
         {% endif %}
