@@ -15,6 +15,13 @@ Polyfills are specified as "fixes" that are applied based on selector rules. Fix
 It is possible to specify any combination of required fixes for a site. See the [technical documentation](rules.md)
 for more details.
 
+## Non-Features
+
+  * Pure Style changes. \\
+    Differences between browsers often come from different interpretations of CSS. Since this is often even more of a moving target than scripts, these are left to other addons. There is a [collection of snippets](styles.md) though.
+  * Banking sites. \\
+    For security (and liability) reasons, it is not advisable to modify them. Use a different browser if required.
+
 ## Supported Platforms
 
 Palefill is developed and tested on *the most recently released version* of the [Pale Moon](https://www.palemoon.org/) browser.
