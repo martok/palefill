@@ -3,6 +3,8 @@
 Palefill is an add-on for Pale Moon that injects [polyfills](https://en.wikipedia.org/wiki/Polyfill_(programming))
 into pages to improve compatibility.
 
+Check out the [Github Releases](https://github.com/martok/palefill/releases/) for changelogs and news.
+
 ## Features
 
 Polyfills are specified as "fixes" that are applied based on selector rules. Fixes currently can be:
