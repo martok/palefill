@@ -15,7 +15,7 @@ up-to-date info on what each one does. The names are case-sensitive.
   * the domain part (*mandatory*) \
     The `*` wildcard can be used at the leftmost level to match any (recursive) subdomain
   * path part (*optional*) \
-    The `*` wildcard can be used exactly once, anywhere in the path
+    The `*` wildcard can be used anywhere in the path (also at the start and end)
   * delimted with a "$": content type selection (*optional*)
       * document: regular top-level document
       * subdocument: included document, such as frame or iframe
@@ -27,6 +27,7 @@ example.com
 example.com/path/a.html
 *.example.com/path/to.js$script
 example.com/path/any*.js$script
+example.com/static-*/app-*.js$script
 example.com$subdocument
 ```
 
