@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE RDF [
-  <!ENTITY updateVersion "1.28">
-  <!ENTITY updateURL "https://github.com/martok/palefill/releases/download/v1.28/palefill-1.28.xpi">
+  <!ENTITY updateVersion "1.29">
+  <!ENTITY updateURL "https://github.com/martok/palefill/releases/download/v1.29/palefill-1.29.xpi">
 ]>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:extension:palefill@addons.martoks-place.de">
